@@ -15,8 +15,8 @@ Guide To INSTALL Bahmni Software on a CentOS Minimal System
     2. If you need to have a UI / Browser also running on this machine, then choose CentOS MINIMAL + DESKTOP. Note in this case "Java" might get selected. De-select JAVA while installing CentOS, so that it doesn't conflict with Bahmni version of Java.
 
 2. Check if properly networked.
-    2.1. In VirtualBox, choose bridged network to connect to internet.
-    2.2. Run "ifconfig" and make sure eth0 has proper IP. You should be able to ping google. Else try "ifup eth0". Check ifconfig again.
+    1. In VirtualBox, choose bridged network to connect to internet.
+    2. Run "ifconfig" and make sure eth0 has proper IP. You should be able to ping google. Else try "ifup eth0". Check ifconfig again.
 
   NOTE: Step 3, 4, 5, 6 and 9 can be done by running the "bootstrap.py" script in bahmni-environment. Or you can do them manually as mentioned below.
 
